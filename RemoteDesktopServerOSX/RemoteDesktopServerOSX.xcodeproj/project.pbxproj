@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2296464F18038DFB00BFF9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2296464E18038DFB00BFF9CA /* Cocoa.framework */; };
+		2296465918038DFB00BFF9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2296465718038DFB00BFF9CA /* InfoPlist.strings */; };
+		2296465B18038DFB00BFF9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296465A18038DFB00BFF9CA /* main.m */; };
+		2296465F18038DFB00BFF9CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2296465D18038DFB00BFF9CA /* Credits.rtf */; };
+		2296466218038DFB00BFF9CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296466118038DFB00BFF9CA /* AppDelegate.m */; };
+		2296466518038DFB00BFF9CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2296466318038DFB00BFF9CA /* MainMenu.xib */; };
+		2296466718038DFB00BFF9CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2296466618038DFB00BFF9CA /* Images.xcassets */; };
+		2296466E18038DFB00BFF9CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2296466D18038DFB00BFF9CA /* XCTest.framework */; };
+		2296466F18038DFB00BFF9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2296464E18038DFB00BFF9CA /* Cocoa.framework */; };
+		22964683180398B900BFF9CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22964682180398B900BFF9CA /* AVFoundation.framework */; };
+		2296468518039C5E00BFF9CA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2296468418039C5E00BFF9CA /* CoreMedia.framework */; };
+		229646881803A5B900BFF9CA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 229646871803A5B900BFF9CA /* GCDAsyncSocket.m */; };
+		2296468A1803AA0D00BFF9CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229646891803AA0D00BFF9CA /* Security.framework */; };
+		2296468D1803ABBC00BFF9CA /* RDServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296468C1803ABBC00BFF9CA /* RDServer.m */; };
+		229646901803AC9000BFF9CA /* RDSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296468F1803AC9000BFF9CA /* RDSession.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2296467018038DFB00BFF9CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2296464318038DFB00BFF9CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2296464A18038DFB00BFF9CA;
+			remoteInfo = RemoteDesktopServerOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2296464B18038DFB00BFF9CA /* RemoteDesktopServerOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteDesktopServerOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2296464E18038DFB00BFF9CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2296465118038DFB00BFF9CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2296465218038DFB00BFF9CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2296465318038DFB00BFF9CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2296465618038DFB00BFF9CA /* RemoteDesktopServerOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteDesktopServerOSX-Info.plist"; sourceTree = "<group>"; };
+		2296465818038DFB00BFF9CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2296465A18038DFB00BFF9CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2296465C18038DFB00BFF9CA /* RemoteDesktopServerOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteDesktopServerOSX-Prefix.pch"; sourceTree = "<group>"; };
+		2296465E18038DFB00BFF9CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2296466018038DFB00BFF9CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2296466118038DFB00BFF9CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2296466418038DFB00BFF9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2296466618038DFB00BFF9CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2296466C18038DFB00BFF9CA /* RemoteDesktopServerOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteDesktopServerOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2296466D18038DFB00BFF9CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22964682180398B900BFF9CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2296468418039C5E00BFF9CA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		229646861803A5B900BFF9CA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		229646871803A5B900BFF9CA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		229646891803AA0D00BFF9CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2296468B1803ABBC00BFF9CA /* RDServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDServer.h; sourceTree = "<group>"; };
+		2296468C1803ABBC00BFF9CA /* RDServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDServer.m; sourceTree = "<group>"; };
+		2296468E1803AC9000BFF9CA /* RDSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSession.h; sourceTree = "<group>"; };
+		2296468F1803AC9000BFF9CA /* RDSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSession.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2296464818038DFB00BFF9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2296468A1803AA0D00BFF9CA /* Security.framework in Frameworks */,
+				2296468518039C5E00BFF9CA /* CoreMedia.framework in Frameworks */,
+				22964683180398B900BFF9CA /* AVFoundation.framework in Frameworks */,
+				2296464F18038DFB00BFF9CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2296466918038DFB00BFF9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2296466F18038DFB00BFF9CA /* Cocoa.framework in Frameworks */,
+				2296466E18038DFB00BFF9CA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2296464218038DFB00BFF9CA = {
+			isa = PBXGroup;
+			children = (
+				2296465418038DFB00BFF9CA /* RemoteDesktopServerOSX */,
+				2296464D18038DFB00BFF9CA /* Frameworks */,
+				2296464C18038DFB00BFF9CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2296464C18038DFB00BFF9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2296464B18038DFB00BFF9CA /* RemoteDesktopServerOSX.app */,
+				2296466C18038DFB00BFF9CA /* RemoteDesktopServerOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2296464D18038DFB00BFF9CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229646891803AA0D00BFF9CA /* Security.framework */,
+				2296468418039C5E00BFF9CA /* CoreMedia.framework */,
+				22964682180398B900BFF9CA /* AVFoundation.framework */,
+				2296464E18038DFB00BFF9CA /* Cocoa.framework */,
+				2296466D18038DFB00BFF9CA /* XCTest.framework */,
+				2296465018038DFB00BFF9CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2296465018038DFB00BFF9CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2296465118038DFB00BFF9CA /* AppKit.framework */,
+				2296465218038DFB00BFF9CA /* CoreData.framework */,
+				2296465318038DFB00BFF9CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2296465418038DFB00BFF9CA /* RemoteDesktopServerOSX */ = {
+			isa = PBXGroup;
+			children = (
+				229646861803A5B900BFF9CA /* GCDAsyncSocket.h */,
+				229646871803A5B900BFF9CA /* GCDAsyncSocket.m */,
+				2296466018038DFB00BFF9CA /* AppDelegate.h */,
+				2296466118038DFB00BFF9CA /* AppDelegate.m */,
+				2296466318038DFB00BFF9CA /* MainMenu.xib */,
+				2296466618038DFB00BFF9CA /* Images.xcassets */,
+				2296465518038DFB00BFF9CA /* Supporting Files */,
+				2296468B1803ABBC00BFF9CA /* RDServer.h */,
+				2296468C1803ABBC00BFF9CA /* RDServer.m */,
+				2296468E1803AC9000BFF9CA /* RDSession.h */,
+				2296468F1803AC9000BFF9CA /* RDSession.m */,
+			);
+			path = RemoteDesktopServerOSX;
+			sourceTree = "<group>";
+		};
+		2296465518038DFB00BFF9CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2296465618038DFB00BFF9CA /* RemoteDesktopServerOSX-Info.plist */,
+				2296465718038DFB00BFF9CA /* InfoPlist.strings */,
+				2296465A18038DFB00BFF9CA /* main.m */,
+				2296465C18038DFB00BFF9CA /* RemoteDesktopServerOSX-Prefix.pch */,
+				2296465D18038DFB00BFF9CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2296464A18038DFB00BFF9CA /* RemoteDesktopServerOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2296467C18038DFB00BFF9CA /* Build configuration list for PBXNativeTarget "RemoteDesktopServerOSX" */;
+			buildPhases = (
+				2296464718038DFB00BFF9CA /* Sources */,
+				2296464818038DFB00BFF9CA /* Frameworks */,
+				2296464918038DFB00BFF9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteDesktopServerOSX;
+			productName = RemoteDesktopServerOSX;
+			productReference = 2296464B18038DFB00BFF9CA /* RemoteDesktopServerOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2296466B18038DFB00BFF9CA /* RemoteDesktopServerOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2296467F18038DFB00BFF9CA /* Build configuration list for PBXNativeTarget "RemoteDesktopServerOSXTests" */;
+			buildPhases = (
+				2296466818038DFB00BFF9CA /* Sources */,
+				2296466918038DFB00BFF9CA /* Frameworks */,
+				2296466A18038DFB00BFF9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2296467118038DFB00BFF9CA /* PBXTargetDependency */,
+			);
+			name = RemoteDesktopServerOSXTests;
+			productName = RemoteDesktopServerOSXTests;
+			productReference = 2296466C18038DFB00BFF9CA /* RemoteDesktopServerOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2296464318038DFB00BFF9CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sam Leitch";
+				TargetAttributes = {
+					2296466B18038DFB00BFF9CA = {
+						TestTargetID = 2296464A18038DFB00BFF9CA;
+					};
+				};
+			};
+			buildConfigurationList = 2296464618038DFB00BFF9CA /* Build configuration list for PBXProject "RemoteDesktopServerOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2296464218038DFB00BFF9CA;
+			productRefGroup = 2296464C18038DFB00BFF9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2296464A18038DFB00BFF9CA /* RemoteDesktopServerOSX */,
+				2296466B18038DFB00BFF9CA /* RemoteDesktopServerOSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2296464918038DFB00BFF9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2296465918038DFB00BFF9CA /* InfoPlist.strings in Resources */,
+				2296466718038DFB00BFF9CA /* Images.xcassets in Resources */,
+				2296465F18038DFB00BFF9CA /* Credits.rtf in Resources */,
+				2296466518038DFB00BFF9CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2296466A18038DFB00BFF9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2296464718038DFB00BFF9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229646881803A5B900BFF9CA /* GCDAsyncSocket.m in Sources */,
+				2296466218038DFB00BFF9CA /* AppDelegate.m in Sources */,
+				229646901803AC9000BFF9CA /* RDSession.m in Sources */,
+				2296468D1803ABBC00BFF9CA /* RDServer.m in Sources */,
+				2296465B18038DFB00BFF9CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2296466818038DFB00BFF9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2296467118038DFB00BFF9CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2296464A18038DFB00BFF9CA /* RemoteDesktopServerOSX */;
+			targetProxy = 2296467018038DFB00BFF9CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2296465718038DFB00BFF9CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2296465818038DFB00BFF9CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2296465D18038DFB00BFF9CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2296465E18038DFB00BFF9CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2296466318038DFB00BFF9CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2296466418038DFB00BFF9CA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2296467A18038DFB00BFF9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2296467B18038DFB00BFF9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2296467D18038DFB00BFF9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteDesktopServerOSX/RemoteDesktopServerOSX-Prefix.pch";
+				INFOPLIST_FILE = "RemoteDesktopServerOSX/RemoteDesktopServerOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2296467E18038DFB00BFF9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteDesktopServerOSX/RemoteDesktopServerOSX-Prefix.pch";
+				INFOPLIST_FILE = "RemoteDesktopServerOSX/RemoteDesktopServerOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2296468018038DFB00BFF9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RemoteDesktopServerOSX.app/Contents/MacOS/RemoteDesktopServerOSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteDesktopServerOSX/RemoteDesktopServerOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RemoteDesktopServerOSXTests/RemoteDesktopServerOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2296468118038DFB00BFF9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RemoteDesktopServerOSX.app/Contents/MacOS/RemoteDesktopServerOSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteDesktopServerOSX/RemoteDesktopServerOSX-Prefix.pch";
+				INFOPLIST_FILE = "RemoteDesktopServerOSXTests/RemoteDesktopServerOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2296464618038DFB00BFF9CA /* Build configuration list for PBXProject "RemoteDesktopServerOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2296467A18038DFB00BFF9CA /* Debug */,
+				2296467B18038DFB00BFF9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2296467C18038DFB00BFF9CA /* Build configuration list for PBXNativeTarget "RemoteDesktopServerOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2296467D18038DFB00BFF9CA /* Debug */,
+				2296467E18038DFB00BFF9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2296467F18038DFB00BFF9CA /* Build configuration list for PBXNativeTarget "RemoteDesktopServerOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2296468018038DFB00BFF9CA /* Debug */,
+				2296468118038DFB00BFF9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2296464318038DFB00BFF9CA /* Project object */;
+}
